@@ -1,0 +1,12 @@
+.decl R(a:number, b:number, d:number)
+.input R
+.decl S(b:number, c:number)
+.input S
+.decl T(a:number, c:number)
+.input T
+.decl U(c:number, d:number)
+.input U
+
+.decl Q(a:number,b:number,c:number,d:number)
+Q(a,b,c,d) :- R(a,b,d), S(b,c), T(a,c), U(c,d).
+.output Q

@@ -1,0 +1,10 @@
+.decl R(a:number, b:number)
+.input R
+.decl S(b:number, c:number)
+.input S
+.decl T(a:number, c:number)
+.input T
+
+.decl Q(a:number,b:number,c:number)
+Q(a,b,c) :- R(a,b), S(b,c), T(a,c).
+.output Q

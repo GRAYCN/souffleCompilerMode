@@ -186,6 +186,7 @@ void compileToBinary(std::string compileCmd, const std::string& sourceFilename) 
 int main(int argc, char** argv) {
     /* Time taking for overall runtime */
     auto souffle_start = std::chrono::high_resolution_clock::now();
+    std::cout<<"test"<<std::endl;
 
     /* have all to do with command line arguments in its own scope, as these are accessible through the global
      * configuration only */
